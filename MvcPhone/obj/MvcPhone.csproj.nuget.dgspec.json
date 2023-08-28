@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CA2023\\CAadvancedprogramming\\public\\CAAdvProgramming-Attempt4\\MvcPhone\\MvcPhone.csproj": {}
+    "/workspaces/CAAdvProgramming-Attempt4/MvcPhone/MvcPhone.csproj": {}
   },
   "projects": {
-    "C:\\CA2023\\CAadvancedprogramming\\public\\CAAdvProgramming-Attempt4\\MvcPhone\\MvcPhone.csproj": {
+    "/workspaces/CAAdvProgramming-Attempt4/MvcPhone/MvcPhone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CA2023\\CAadvancedprogramming\\public\\CAAdvProgramming-Attempt4\\MvcPhone\\MvcPhone.csproj",
+        "projectUniqueName": "/workspaces/CAAdvProgramming-Attempt4/MvcPhone/MvcPhone.csproj",
         "projectName": "MvcPhone",
-        "projectPath": "C:\\CA2023\\CAadvancedprogramming\\public\\CAAdvProgramming-Attempt4\\MvcPhone\\MvcPhone.csproj",
-        "packagesPath": "C:\\Users\\graha\\.nuget\\packages\\",
-        "outputPath": "C:\\CA2023\\CAadvancedprogramming\\public\\CAAdvProgramming-Attempt4\\MvcPhone\\obj\\",
+        "projectPath": "/workspaces/CAAdvProgramming-Attempt4/MvcPhone/MvcPhone.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/CAAdvProgramming-Attempt4/MvcPhone/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\graha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/dotnet/7.0.306/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +38,30 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }
