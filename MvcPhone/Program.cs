@@ -7,17 +7,6 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Register HTTP Client - For PhonesAPI/Products
-builder.Services.AddHttpClient("PhonesApi", client =>
-{
-    client.BaseAddress = new Uri("http://localhost:5002/");
-    client.DefaultRequestHeaders.Accept.Add(
-        new MediaTypeWithQualityHeaderValue(
-            mediaType: "application/json",
-            quality: 1.0
-        )
-    );
-});
 
 
 // Configure the HTTP request pipeline.
