@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NPLsG1HCSaFzAV2WgZfjdsmb0Qc+qEAbIjYrGBDFrimlCaFXEKKgZC+cusgrJ6wViDitu7S5UzV6joRv//9eXw==",
+  "dgSpecHash": "XRKoOChtAn8bb1VdSUkwWjOhJ0AkM3+TZZQaQRcelLphIePQ1npKl83pipeoPZJf9hG/XZ1F0yeT8ZNRop//fw==",
   "success": true,
-  "projectFilePath": "C:\\CA2023\\CAadvancedprogramming\\public\\CAAdvProgramming-Attempt4\\PhonesAPI\\PhonesApi.csproj",
+  "projectFilePath": "C:\\CA2023\\CAadvancedprogramming\\public\\CAAdvProgramming-Attempt4\\PhonesApi\\PhonesApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\graha\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\graha\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

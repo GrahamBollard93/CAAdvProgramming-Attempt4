@@ -7,6 +7,6 @@ public class PhonesDbContext : DbContext
     public PhonesDbContext(DbContextOptions<PhonesDbContext> options) :
 base(options)
 {}
-public DbSet<Phones> Movies { get; set; } = null!;
+public DbSet<Phones> Phones { get; set; } = null!;
 }
 }
